@@ -6,7 +6,7 @@ on:
   watch:
     types: started
   schedule:
-    - cron: 35 3 * * *
+    - cron: 35 5 * * *
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
